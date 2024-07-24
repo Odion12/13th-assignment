@@ -1,0 +1,386 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+nav {
+ background-color: navy;
+ height: 20vh;
+ /* width: 100; */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 2em;
+ /* flex-wrap: wrap; */
+}
+
+.cap {
+ font-size: 40px;
+ color: green;
+}
+
+nav ul {
+ list-style: none;
+ display: flex;
+ color: white;
+}
+
+nav ul li {
+ padding: 10px 30px;
+ position: relative;
+}
+
+nav ul li a {
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+nav ul li a:hover {
+ color: green;
+
+}
+
+.drop {
+ display: none;
+}
+
+.con ul li:hover .drop {
+ display: block;
+ position: absolute;
+ left: 0;
+ top: 100%;
+ background-color: navy;
+}
+
+.con ul li:hover .drop ul {
+ display: block;
+ margin: 10px;
+}
+
+.con ul li:hover .drop ul li {
+ width: 150px;
+ padding: 15px;
+}
+
+.drop1 {
+ display: none;
+}
+
+.drop ul li:hover .drop1 {
+ display: block;
+ position: absolute;
+ /* left: 0; */
+ /* top: 100%; */
+ margin-top: -40px;
+ margin-left: 140px;
+ background-color: navy;
+}
+
+.drop ul li:hover .drop1 ul {
+ display: block;
+ margin: 10px;
+}
+
+.drop ul li:hover .drop1 ul li {
+ width: 150px;
+ padding: 15px;
+}
+
+.one{
+  grid-area: one;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+  height: 40vh;
+}
+.one p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;   
+}
+.inn{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  width: 32vw;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+.one button{
+  height: 5vh;
+  width: 4vw;
+  background-color: rgb(16, 72, 255);
+  color: white;
+}
+.icons{
+  /* background-color: aqua; */
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+}
+.two {
+  grid-area: two;
+  background-color: white;
+  padding: 20px;
+}
+.uno2 {
+  /* background-color: bisque; */
+  width: 35vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+
+}
+
+.top2 {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text3 {
+  margin-left: -120px;
+  padding: 10px;
+  font-size: 11px;
+}
+
+.top2 img {
+  width: 12%;
+  border-radius: 60%;
+  /* border: solid rgb(229, 228, 228); */
+}
+
+.des2 {
+  /* background-color: aqua; */
+  /* width: 35vw; */
+  margin-top: 25px;
+  /* border: solid rgb(223, 222, 222); */
+
+}
+
+.des2 img {
+  width: 35.5vw;
+}
+
+.tres2 {
+  /* background-color: aqua; */
+  display: flex;
+  /* justify-content: ; */
+  height: 12vh;
+  align-items: center;
+}
+
+.icons3 {
+  /* background-color: blueviolet; */
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4vh;
+}
+
+.tres2 h4 {
+  margin-left: 33px;
+  color: rgb(16, 72, 255);
+}
+.three {
+  grid-area: three;
+  background-color: white;
+}
+.beta{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 3em;
+}
+.alp{
+  /* background-color: aqua; */
+  height: 10vh;
+  padding: 20px;
+  color:rgb(16, 72, 255) ;
+  
+}
+.cod{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7px;
+  height: 12vh;
+}
+.cod img {
+  width: 25%;
+  border-radius: 60%;
+  border: solid rgb(229, 228, 228);
+}
+.aca{
+  /* padding: 10px; */
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 14px;
+}
+.aca button{
+  width: 4vw;
+  height: 3vh;
+  border-radius: 20px;
+  background-color: rgb(16, 72, 255);
+  color: white;
+}
+.omg button{
+  width: 20vw;
+  height: 10vh;
+  background-color: rgb(16, 72, 255);
+  color: white;
+}
+.four {
+  grid-area: four;
+  background-color: white;
+  padding: 20px;
+}
+.uno{
+  /* background-color: bisque; */
+  width: 32vw;
+  height: 23vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+
+}
+.top{
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text{
+  margin-left: -120px;
+  padding: 10px;
+}
+
+.top img{
+  width: 15%;
+  border-radius: 60%;
+  border: solid rgb(229, 228, 228);
+}
+.des{
+  /* background-color: aqua; */
+  width: 32vw;
+  margin-top: 25px;
+  border: solid rgb(223, 222, 222);
+
+}
+.text2{
+  /* margin: 20px; */
+  padding: 25px;
+}
+.text2 h4{
+ color: rgb(16, 72, 255);
+}
+.des img{
+  width: 32vw;
+}
+.tres{
+  /* background-color: aqua; */
+  display: flex;
+  /* justify-content: ; */
+  height: 12vh;
+  align-items: center;
+}
+.icons1{
+  /* background-color: blueviolet; */
+   width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  height: 4vh;
+}
+.tres h4{
+  margin-left: 33px;
+  color: rgb(16, 72, 255);
+}
+
+.five {
+  grid-area: five;
+  background-color: white;
+  padding: 22px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.top5 {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text5 {
+  margin-left: -120px;
+  padding: 10px;
+  font-size: 11px;
+}
+
+.top5 img {
+  width: 12%;
+  border-radius: 50%;
+  /* border: solid rgb(229, 228, 228); */
+}
+.tres5 {
+  /* background-color: aqua; */
+  display: flex;
+  /* justify-content: ; */
+  height: 12vh;
+  align-items: center;
+}
+
+.icons5 {
+  /* background-color: blueviolet; */
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4vh;
+}
+
+.tres5 h4 {
+  margin-left: 33px;
+  color: rgb(16, 72, 255);
+}
+
+.content{
+  /* flex-wrap: wrap; */
+  background-color: rgb(222, 217, 217);
+  padding: 15px;
+  /* height: 100vh; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows:minmax(100px,
+    auto); */
+  /* grid-template-rows: repeat(5,100px); */
+  margin: 0;
+  min-width: 960px;
+  grid-template-areas: 
+  "one one  two two three "
+  "four four  two two three"
+  "four four five five three"
+  "four four five five three"
+  "four four five five three"
+  ;
+  gap: 1em;
+
+}
+/* @media (max-width:750px){
+  .content{
+    flex-direction: column;
+  }
+} */
